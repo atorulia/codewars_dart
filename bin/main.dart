@@ -1,5 +1,5 @@
-import 'package:codewars_dart/sums_of_parts/sums_of_parts.dart';
+import 'package:codewars_dart/rgb_to_hex_conversion/rgb_to_hex_conversion.dart';
 
 void main(List<String> arguments) {
-  print(partsSums([0, 1, 3, 6, 10]));
+  print(rgb(148, 0, 211));
 }
