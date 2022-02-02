@@ -232,3 +232,20 @@ one every 3 is eliminated until one remains
 The above link about the "base" kata description will give you a more thorough insight about the origin of this kind of permutation, but basically that's all that there is to know to solve this kata.
 
 Notes and tips: using the solution to the other kata to check your function may be helpful, but as much larger numbers will be used, using an array/list to compute the number of the survivor may be too slow; you may assume that both n and k will always be >=1.
+
+# Valid Parentheses
+
+Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return `true` if the string is valid, and `false` if it's invalid.
+
+### Examples
+```Dart
+"()"              =>  true
+")(()))"          =>  false
+"("               =>  false
+"(())((()())())"  =>  true
+```
+### Constraints
+
+`0 <= input.length <= 100`
+
+Along with opening (`(`) and closing (`)`) parenthesis, input may contain any valid ASCII characters. Furthermore, the input string may be empty and/or not contain any parentheses at all. Do not treat other forms of brackets as parentheses (e.g. `[]`, `{}`, `<>`).
