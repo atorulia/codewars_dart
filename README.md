@@ -183,3 +183,30 @@ parts_sums(ls) -> [10037855, 9293730, 9292795, 9292388, 9291934, 9291504, 929141
 
 - Take a look at performance: some lists have thousands of elements.
 - Please ask before translating.
+
+# Alternate capitalization
+
+Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below. Index `0` will be considered even.
+
+For example, `capitalize("abcdef") = ['AbCdEf', 'aBcDeF']`. See test cases for more examples.
+
+The input will be a lowercase string with no spaces.
+
+Good luck!
+
+If you like this Kata, please try:
+
+# RGB To Hex Conversion
+
+The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.
+
+Note: Your answer should always be 6 characters long, the shorthand with 3 will not work here.
+
+The following are examples of expected output values:
+
+```Dart 
+rgb(255, 255, 255) // returns FFFFFF
+rgb(255, 255, 300) // returns FFFFFF
+rgb(0, 0, 0)       // returns 000000
+rgb(148, 0, 211)   // returns 9400D3
+```
